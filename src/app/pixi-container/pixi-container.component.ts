@@ -8,6 +8,7 @@ import {PixiShapesService} from "../services/pixi-shapes.service";
   styleUrls: ['./pixi-container.component.css']
 })
 export class PixiContainerComponent implements OnInit, AfterViewInit {
+  
   @ViewChild("pixi", {static: false})
   pixiCont: any;
 
